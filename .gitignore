@@ -1,0 +1,11 @@
+# Output
+dist/
+*.log
+
+# Temp and caches
+node_modules/
+.awcache/
+*~
+
+# IDE
+.vscode/
