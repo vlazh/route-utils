@@ -1,1 +1,2 @@
-[![npm package](https://img.shields.io/npm/v/@vzh/react-auth.svg?style=flat-square)](https://www.npmjs.org/package/@vzh/react-auth)
+# route-utils  ![GitHub package.json version](https://img.shields.io/github/package-json/v/vlazh/route-utils)
+
