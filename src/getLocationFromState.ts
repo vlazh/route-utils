@@ -6,7 +6,7 @@ export default function getLocationFromState(
   fallback: Location['pathname'] | LocationDescriptorObject<unknown>
 ): LocationDescriptorObject<unknown> {
   return (
-    (location.state && (location.state as FromLocationState).from) ||
+    (location.state as FromLocationState)?.from ||
     (typeof fallback === 'string' ? { pathname: fallback } : fallback)
   );
 }
